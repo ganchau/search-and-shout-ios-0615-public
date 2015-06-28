@@ -10,4 +10,6 @@
 
 @interface FISSearchViewController : UIViewController
 
+@property (strong, nonatomic) NSArray *dances;
+
 @end

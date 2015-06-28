@@ -7,6 +7,7 @@
 //
 
 #import "FISDancesTableViewController.h"
+#import "FISSearchViewController.h"
 #import "FISDanceMove.h"
 #import "FISDataStore.h"
 
@@ -113,7 +114,7 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -121,7 +122,10 @@
 {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    
+    FISSearchViewController *searchDVC = segue.destinationViewController;
+    searchDVC.dances = self.store.dances;
 }
-*/
+
 
 @end

@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+
 @class FISDataStore;
+
 @interface FISDancesTableViewController : UITableViewController
 
 @property (strong, nonatomic) FISDataStore *store;
+
 @end
